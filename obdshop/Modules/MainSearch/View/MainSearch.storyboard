@@ -23,7 +23,7 @@
         <!--Convidar Parceiro-->
         <scene sceneID="Z2t-IS-lDo">
             <objects>
-                <viewController storyboardIdentifier="MainSearchViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eow-XT-pG2" customClass="MainSearchViewController" customModule="Boilerplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainSearchViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eow-XT-pG2" customClass="MainSearchViewController" customModule="obdshop" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="n8V-bU-fJb"/>
                         <viewControllerLayoutGuide type="bottom" id="bdt-Jz-UJC"/>
@@ -44,7 +44,7 @@
                                                 <color key="textColor" red="0.44489092959298027" green="0.022906184506913025" blue="0.54940682649612427" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xiN-14-DAy" userLabel="userField" customClass="RoundedTextField" customModule="Boilerplate" customModuleProvider="target">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xiN-14-DAy" userLabel="userField" customClass="RoundedTextField" customModule="obdshop" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="162" width="288" height="44"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="44" id="LXS-s5-xNr"/>
@@ -65,13 +65,13 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79Z-7w-c49" userLabel="userLabel" customClass="ValidableUILabel" customModule="Boilerplate" customModuleProvider="target">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79Z-7w-c49" userLabel="userLabel" customClass="ValidableUILabel" customModule="obdshop" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="144" width="32" height="14"/>
                                                 <fontDescription key="fontDescription" name="SanFranciscoText-Regular" family="San Francisco Text" pointSize="12"/>
                                                 <color key="textColor" red="0.44489092959298027" green="0.022906184506913025" blue="0.54940682649612427" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZNp-vH-NOe" userLabel="emailField" customClass="RoundedTextField" customModule="Boilerplate" customModuleProvider="target">
+                                            <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZNp-vH-NOe" userLabel="emailField" customClass="RoundedTextField" customModule="obdshop" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="236" width="288" height="44"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="44" id="Z8J-bf-xhm"/>
@@ -92,13 +92,13 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qwo-bl-YIi" userLabel="emailLabel" customClass="ValidableUILabel" customModule="Boilerplate" customModuleProvider="target">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qwo-bl-YIi" userLabel="emailLabel" customClass="ValidableUILabel" customModule="obdshop" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="218" width="30" height="14"/>
                                                 <fontDescription key="fontDescription" name="SanFranciscoText-Regular" family="San Francisco Text" pointSize="12"/>
                                                 <color key="textColor" red="0.44489092959298027" green="0.022906184506913025" blue="0.54940682649612427" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HLC-3b-biN" userLabel="inviteButton" customClass="RoundedPinkButton" customModule="Boilerplate" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HLC-3b-biN" userLabel="inviteButton" customClass="RoundedPinkButton" customModule="obdshop" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="310" width="288" height="44"/>
                                                 <color key="backgroundColor" red="0.44489092959298027" green="0.022906184506913025" blue="0.54940682649612427" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>

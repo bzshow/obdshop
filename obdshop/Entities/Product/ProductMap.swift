@@ -11,7 +11,7 @@ import RealmSwift
 import ObjectMapper
 import Localize_Swift
 
-class Product: Object, Mappable {
+class ProductMap: Object, Mappable {
 
     @objc dynamic var id = 0
     @objc dynamic var code = 0

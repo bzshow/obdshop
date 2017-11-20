@@ -10,12 +10,12 @@ import UIKit
 class RootRouter: NSObject {
     
     func presentFirstScreen(inWindow window: UIWindow) {
-        presentMainSearchScreen()
+        presentIntroGuideScreen()
     }
     
-    private func presentMainSearchScreen() {
-        let mainSearchViewController = MainSearchRouter.setupModule()
-        presentView(mainSearchViewController)
+    private func presentIntroGuideScreen() {
+        let introGuideViewController = IntroGuideRouter.setupModule()
+        presentView(introGuideViewController)
     }
     
     private func presentView(_ viewController: UIViewController) {
