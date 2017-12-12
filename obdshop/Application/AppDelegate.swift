@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         setupNavigationBarFont()
         setupBackButtonAppearance()
-        presentInitialScreen()
+        //presentInitialScreen()
         return true
     }
     
@@ -24,6 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func presentInitialScreen() {
         let rootRouter = RootRouter()
+        self.window = UIWindow(frame: UIScreen.main.bounds)
         rootRouter.presentFirstScreen(inWindow: window!)
     }
     

@@ -10,11 +10,11 @@ import UIKit
 class RootRouter: NSObject {
     
     func presentFirstScreen(inWindow window: UIWindow) {
-        presentIntroGuideScreen()
+        //presentIntroGuideScreen()
     }
     
     private func presentIntroGuideScreen() {
-        let introGuideViewController = IntroGuideRouter.setupModule()
+        let introGuideViewController = CategoriesTabPageViewController()
         presentView(introGuideViewController)
     }
     
